@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://needed.men/sitemap.xml
