@@ -40,7 +40,7 @@ a{text-underline-offset:3px}
 .promo:hover{background:#8f3f25}
 .banner-row{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;align-items:center}
 .banner{flex:0 0 auto;scroll-snap-align:start;display:grid;place-items:center;padding:10px;background:#f7f5f0;border:1px solid var(--line);border-radius:16px}
-.banner img{max-height:260px;width:auto;max-width:min(80vw,620px)}
+.banner img{max-height:250px;width:auto;max-width:min(80vw,620px)}
 .category.photo{position:relative;isolation:isolate;overflow:hidden;background:#111719 var(--bg) center/cover no-repeat}
 .category.photo::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(9,12,13,.05) 20%,rgba(9,12,13,.85) 100%)}
 @media(max-width:1024px){.carousel{grid-auto-columns:calc((100% - 30px)/3)}}
