@@ -46,3 +46,9 @@ a{text-underline-offset:3px}
 @media(max-width:1024px){.carousel{grid-auto-columns:calc((100% - 30px)/3)}}
 @media(max-width:800px){.carousel{grid-auto-columns:calc((100% - 15px)/2)}.hero-photo::before{background:linear-gradient(180deg,rgba(9,12,13,.7),rgba(9,12,13,.9))}}
 @media(max-width:520px){.carousel{grid-auto-columns:82vw}}
+.contact-lines{display:flex;flex-direction:column;gap:6px;margin:14px 0 0}
+.contact-lines a,.footer-grid .contact-lines a{display:inline-flex;align-items:center;gap:9px;margin:0;color:#e7e2d8}
+.contact-lines a:hover span{text-decoration:underline}
+.social{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+.footer-grid .social a{display:inline-grid;place-items:center;width:40px;height:40px;margin:0;border:1px solid #3a3f42;border-radius:50%;color:#e7e2d8;transition:background-color .15s ease,border-color .15s ease}
+.footer-grid .social a:hover{background:var(--rust);border-color:var(--rust);color:#fff}
