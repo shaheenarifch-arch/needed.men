@@ -1,10 +1,11 @@
-# Needed.Men production starter
+# Needed.Men
 
-Deploy the contents of this folder at the web root.
+Static site for needed.men. Deploy the contents of this folder at the web root.
 
-## Important before commerce launch
-- All 75 catalog cards use synthetic editorial demo data.
-- Replace demo records with verified partner-feed title, image, price, availability and compliant affiliate URL.
-- Replace the placeholder newsletter with a consent-aware provider.
-- Review privacy, terms, contact and affiliate disclosure pages for the actual business and jurisdiction.
+## Partners
+- **Everyman** (Awin, merchant 79488): 34-product carousel on the home page, built from the Awin product feed, plus Everyman banner creatives and the "Buy 1 Get 1 Free" offer link.
+
+## Notes
+- Product prices come from the partner feed and can change; refresh cards from a new feed export periodically.
 - Keep `og-image.jpg`, `robots.txt`, and `sitemap.xml` at the root.
+- The newsletter form is a placeholder; connect a consent-aware provider before promoting it.
