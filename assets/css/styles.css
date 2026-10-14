@@ -54,3 +54,17 @@ a{text-underline-offset:3px}
 .footer-grid .social a:hover{background:var(--rust);border-color:var(--rust);color:#fff}
 .product-img.photo{aspect-ratio:3/4;background:#ece7dd}
 .product-img.photo img{object-fit:cover;padding:0}
+
+.lamp-rail{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:35;display:flex;align-items:center}
+.lamp-tab{writing-mode:vertical-rl;background:var(--ink);color:#fff;border:0;border-radius:12px 0 0 12px;padding:16px 9px;font:800 .78rem/1 Inter,system-ui,sans-serif;letter-spacing:.06em;cursor:pointer;box-shadow:var(--shadow)}
+.lamp-panel{display:none;width:min(300px,calc(100vw - 60px));max-height:calc(100vh - 120px);overflow:auto;background:var(--white);border:1px solid var(--line);border-right:0;border-radius:18px 0 0 18px;padding:16px;box-shadow:var(--shadow)}
+.lamp-rail.open .lamp-panel{display:block}.lamp-rail.open .lamp-tab{display:none}
+.lamp-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}.lamp-head .kicker{display:block;font-size:.66rem;letter-spacing:.12em;color:var(--rust);font-weight:800}.lamp-head strong{font-size:1.05rem}
+.lamp-close{border:0;background:none;font-size:1.4rem;line-height:1;cursor:pointer;color:var(--muted)}
+.lamp{display:grid;grid-template-columns:64px 1fr;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line);text-decoration:none}
+.lamp img{width:64px;height:64px;object-fit:contain;background:#f6f6f4;border-radius:10px}
+.lamp b{display:block;font-size:.84rem;line-height:1.25}.lamp small{display:block;font-size:.72rem;line-height:1.35;color:var(--muted);margin:2px 0}.lamp em{font-style:normal;font-weight:800;font-size:.82rem;color:var(--green)}
+.lamp:hover b{color:var(--rust)}
+.lamp-note{font-size:.66rem;line-height:1.4;color:var(--muted);margin:6px 0 8px}
+.lamp-all{display:block;text-align:center;background:var(--ink);color:#fff;text-decoration:none;border-radius:999px;padding:8px 12px;font-weight:800;font-size:.8rem}
+@media(min-width:1640px){.lamp-rail{right:16px;top:96px;transform:none}.lamp-rail .lamp-panel{display:block;width:200px;border-right:1px solid var(--line);border-radius:18px;padding:14px}.lamp-tab,.lamp-close{display:none}.lamp{grid-template-columns:52px 1fr;gap:8px}.lamp img{width:52px;height:52px}.lamp small{display:none}}
