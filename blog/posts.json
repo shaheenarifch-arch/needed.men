@@ -40,5 +40,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 8.51
+  },
+  {
+    "keyword": "best men's travel toiletry bag under $40",
+    "title": "Best Men's Travel Toiletry Bag Under $40 (Guide)",
+    "description": "Compare the best men's travel toiletry bag under $40, from leather dopp kits to mesh pouches, with buying tips to pick the right style for your trip.",
+    "file": "best-men-s-travel-toiletry-bag-under-40.html",
+    "date": "2026-11-08",
+    "archetype": "best_products",
+    "archetype_confidence": 0.92,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.26
   }
 ]
